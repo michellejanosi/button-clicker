@@ -11,6 +11,10 @@ body {
   width: 100vw;
 }
 
+a {
+  color: #085394;
+}
+
 .container {
   margin: 0 auto;
   width: 75%;
@@ -42,9 +46,15 @@ body {
   border: 3px solid #000;
   box-shadow: 3px 3px #000;
   color: #FFF;
+  cursor: pointer;
   font-family: inherit;
   font-size: 1.1rem;
   padding: 5px 10px;
+ }
+
+ .btn:active {
+  box-shadow: 1px 1px #666;
+  transform: translate(1px 1px);
  }
 
  /* Main Content*/
